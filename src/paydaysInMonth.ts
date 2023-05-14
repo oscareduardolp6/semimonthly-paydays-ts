@@ -1,7 +1,7 @@
 import { Month } from "./months";
 import { WeekDays } from "./weekDays";
 
-export const getPayDaysInMont = (month: Month, year = new Date().getFullYear()) => {
+export const getPayDaysInMont = (month: Month, year = new Date().getFullYear()): [Date, Date] => {
   let firstPayDay = new Date(year, month, 15);
   let secondPayDay = new Date(year, month + 1, 0); 
 
