@@ -1,0 +1,21 @@
+{
+  "name": "semimonthly-paydays-ts",
+  "version": "0.0.1",
+  "description": "Calculate the number of pay days between 2 dates in a semimonthly pay schema ",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "paydays",
+    "semimonthly",
+    "semimonthly",
+    "paydays"
+  ],
+  "author": "Oscar López",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
