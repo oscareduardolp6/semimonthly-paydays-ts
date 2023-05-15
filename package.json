@@ -13,6 +13,10 @@
     "paydays"
   ],
   "author": "Oscar López",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oscareduardolp6/semimonthly-paydays-ts"
+  },
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.5.0",
