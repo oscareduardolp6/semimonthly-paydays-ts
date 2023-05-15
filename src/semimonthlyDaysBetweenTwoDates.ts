@@ -1,5 +1,12 @@
 import { getPayDaysInMont } from "./paydaysInMonth";
 
+/**
+ * Calculates the number of semimonthly paydays between two given dates.
+ * The first day should be before ths second day.
+ * @param {Date} date1 - The first date to calculate the number of semimonthly pay days between.
+ * @param {Date} date2 - The second date to calculate the number of semimonthly pay days between.
+ * @returns the number of semimonthly pay days between two given dates.
+ */
 export const getSemimonthlyDaysBetweenTwoDates = (date1: Date, date2: Date): number => {
   let payDays = 0, 
       initialDate = new Date(date1), 
